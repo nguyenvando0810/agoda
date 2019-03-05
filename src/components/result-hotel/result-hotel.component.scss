@@ -1,0 +1,28 @@
+.result-hotel {
+  &__suggest {
+    border-color: #24457c;
+    background-color: #24457c;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: inline-block;
+  }
+
+  &__content {
+    border: 1px solid #24457c;
+    display: flex;
+
+    &-img {
+      width: 30%;
+    }
+
+    &-detail {
+      width: 50%;
+    }
+
+    &-price {
+      width: 20%;
+    }
+  }
+}
