@@ -1,21 +1,11 @@
 <template>
   <div class="header">
-    <nav
-      class="navbar navbar-expand-sm navbar-dark header__navbar"
-      style="background-color: #FFFFFF;"
-    >
+    <nav class="navbar navbar-expand-sm navbar-dark header__navbar" style="background-color: #FFFFFF;">
       <a class="navbar-brand" href="#">
         <img src="../../assets/agoda-logo.svg" alt="agoda-logo" class="agoda-logo">
       </a>
-      <button
-        class="navbar-toggler d-lg-none"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      ></button>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 header__navbar-nav">
           <li class="nav-item">
@@ -37,14 +27,8 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="dropdownId"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
               <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -71,19 +55,31 @@
         </ul>
       </div>
     </nav>
+    <div class="header-funnel">
+      <div class="container">
+        <div class="header-funnel__content">
+          <img src="../../assets/Agoda-Cash-Icon@2x.png" alt="">
+          <div class="">
+            <div class="header-funnel__content-title">Chỉ cần đăng nhập ngay, đừng bỏ lỡ ưu đãi tiết kiệm đơn giản này!</div>
+            <div class="header-funnel__content-description">Nhận Tiền Agoda cho đặt phòng kế tiếp.</div>
+          </div>
+          <div class="header-funnel__content-login">
+            <button class="btn">Đăng nhập</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import "./hello.component.scss";
-import axios from "axios";
-export default {
-  name: "HeaderComponent",
-  data() {
-    return {
-    };
-  }
-};
+  import "./hello.component.scss";
+  export default {
+    name: "HeaderComponent",
+    data() {
+      return {};
+    }
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
