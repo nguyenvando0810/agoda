@@ -73,7 +73,7 @@
 </template>
 
 <script lang="ts">
-  import "./hello.component.scss";
+  import "./header.component.scss";
   export default {
     name: "HeaderComponent",
     data() {
